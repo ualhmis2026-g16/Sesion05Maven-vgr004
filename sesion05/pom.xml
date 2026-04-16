@@ -151,14 +151,23 @@
                     </plugins>
                 </configuration>
             </plugin>
-	<plugin>
-		<groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-javadoc-plugin</artifactId>
-		<version>3.5.0</version>
-		<configuration>
-			<show>private</show>
-		</configuration>
-	</plugin>
+<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>3.6.3</version>
+                <configuration>
+                    <doclet>nl.talsmasoftware.umldoclet.UMLDoclet</doclet>
+                    <docletArtifact>
+                        <groupId>nl.talsmasoftware</groupId>
+                        <artifactId>umldoclet</artifactId>
+                        <version>2.1.0</version>
+                    </docletArtifact>
+                    <additionalOptions>
+                        <additionalOption>-umlImageFormat svg</additionalOption>
+                        <additionalOption>-private</additionalOption>
+                    </additionalOptions>
+                </configuration>
+            </plugin>
         </plugins>
     </reporting>
 </project>

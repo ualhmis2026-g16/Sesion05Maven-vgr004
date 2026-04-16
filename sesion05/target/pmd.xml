@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-04-16T10:15:24.557">
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.55.0" timestamp="2026-04-16T11:16:01.014">
 <error filename="C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Main.java" msg="PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Main.java">
 <![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Main.java
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:128)
@@ -30,8 +30,8 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	... 10 more
 ]]>
 </error>
-<error filename="C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java" msg="PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java">
-<![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java
+<error filename="C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java" msg="PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:128)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:100)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:62)
@@ -60,8 +60,8 @@ Caused by: java.lang.IllegalArgumentException: Unsupported class file major vers
 	... 10 more
 ]]>
 </error>
-<error filename="C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java" msg="PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java">
-<![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\JsonReader.java
+<error filename="C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java" msg="PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java">
+<![CDATA[net.sourceforge.pmd.PMDException: Error while processing C:\Users\Victor\Desktop\Core\Asignaturas\Tercer año\Segundo cuatrimestre\HMIS\Sesion05Maven-vgr004\sesion05\src\main\java\sesion05\Coche.java
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCodeWithoutCache(SourceCodeProcessor.java:128)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:100)
 	at net.sourceforge.pmd.SourceCodeProcessor.processSourceCode(SourceCodeProcessor.java:62)
