@@ -44,6 +44,36 @@
             <version>1.12.1</version>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>nl.talsmasoftware</groupId>
+            <artifactId>umldoclet</artifactId>
+            <version>2.1.0</version>
+            <scope>provided</scope>
+        </dependency>
+<dependency>
+        <groupId>junit</groupId>
+        <artifactId>junit</artifactId>
+        <version>4.12</version>
+        <scope>test</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.commons</groupId>
+        <artifactId>commons-collections4</artifactId>
+        <version>4.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.2.2</version>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.logging.log4j</groupId>
+        <artifactId>log4j-core</artifactId>
+        <version>2.15.0</version>
+    </dependency>
     </dependencies>
 
     <build>
@@ -96,8 +126,8 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-site-plugin</artifactId>
-                <version>4.0.0-M7</version>
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+                <version>3.5.0</version>
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -138,7 +168,7 @@
             <plugin>
                 <groupId>com.github.spotbugs</groupId>
                 <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.9.8.3</version>
+                <version>4.8.6.6</version>
                 <configuration>
                     <effort>Max</effort>
                     <threshold>Low</threshold>
@@ -146,12 +176,12 @@
                         <plugin>
                             <groupId>com.h3xstream.findsecbugs</groupId>
                             <artifactId>findsecbugs-plugin</artifactId>
-                            <version>1.14.0</version>
+                            <version>1.13.0</version>
                         </plugin>
                     </plugins>
                 </configuration>
             </plugin>
-<plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>3.6.3</version>
@@ -167,6 +197,26 @@
                         <additionalOption>-private</additionalOption>
                     </additionalOptions>
                 </configuration>
+            </plugin>
+
+            <plugin>
+                <groupId>org.owasp</groupId>
+                <artifactId>dependency-check-maven</artifactId>
+                <version>12.1.0</version>
+                <configuration>
+                    <skipTestScope>false</skipTestScope>
+                    <formats>
+                        <format>HTML</format>
+                        <format>XML</format>
+                    </formats>
+                </configuration>
+                <reportSets>
+                    <reportSet>
+                        <reports>
+                            <report>aggregate</report>
+                        </reports>
+                    </reportSet>
+                </reportSets>
             </plugin>
         </plugins>
     </reporting>
